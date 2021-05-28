@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Led Panel Control</title>
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-center"><line x1="18" y1="10" x2="6" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="18" y1="18" x2="6" y2="18"></line></svg>
+    </nav>
+    <h1>Led Panel Control</h1>
+    <div class="center">
+      <div class="pot-1">
+        <label for="pot-1" class="pot-1__label"></label>
+        <input type="range" id="Red" name="pot-1" min="0" max="255" class="pot-1__input">
+      </div>
+      <div class="pot-1" >
+        <label for="pot-1" class="pot-1__label"></label>
+        <input type="range" id="Green" name="pot-1" min="0" max="255" class="pot-1__input">
+      </div>
+      <div class="pot-1">
+        <label for="pot-1" class="pot-1__label"></label>
+        <input type="range" id="Blue" name="pot-1" min="0" max="255" class="pot-1__input">
+      </div>
+    </div>
+    <div class="bottom">
+      <div>
+        <span class="ValueRed"></span>
+      </div>
+      <div>
+        <span class="ValueGreen"></span>
+      </div>
+      <div>
+        <span class="ValueBlue"></span>
+      </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/poten.js"></script>
+</html>
